@@ -1,0 +1,18 @@
+{
+	"eslint.validate": ["typescript"],
+	"java.configuration.updateBuildConfiguration": "interactive",
+	"window.title": "Nest First",
+	"maven.view": "hierarchical",
+	"java.dependency.packagePresentation": "hierarchical",
+	"gitlab.instanceUrl": "http://gitlab.smartiys.io",
+	"prettier.printWidth": 99999,
+	"git.suggestSmartCommit": true,
+	"editor.fontSize": 12,
+	"terminal.integrated.fontSize": 12,
+	"markdown.preview.fontSize": 12,
+	"vetur.format.options.tabSize": 4,
+	"editor.tabSize": 4,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"editor.detectIndentation": false
+}
