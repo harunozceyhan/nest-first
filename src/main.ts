@@ -6,6 +6,7 @@ import { Reflector } from '@nestjs/core'
 
 async function bootstrap() {
     const app = await NestFactory.create<NestExpressApplication>(AppModule)
+    app.enableCors()
     app.useGlobalInterceptors(new RequestInterceptor(app.get(Reflector)))
     await app.listen(parseInt(process.env.PORT, 10) || 3000)
 }
